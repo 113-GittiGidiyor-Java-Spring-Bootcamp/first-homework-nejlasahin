@@ -23,14 +23,14 @@ public class HomeworkApiClient {
 
         System.out.println("========== Student Save ==========");
         Student st6 = new Student("St Name 6", LocalDate.of(2000, Month.JANUARY,3), "St Address 6", 'F');
-        //studentController.saveStudent(st6);
+        studentController.saveStudent(st6);
 
         System.out.println("========== Student Delete ==========");
-        //studentController.deleteStudent(6);
+        studentController.deleteStudent(6);
 
         System.out.println("========== Student Update ==========");
         Student st7 = new Student("St Name 7", LocalDate.of(2000, Month.DECEMBER,3), "St Address 7", 'M');
-        //studentController.updateStudent(st7, 1);
+        studentController.updateStudent(st7, 1);
 
         System.out.println("========== Student List By Gender ==========");
         List<Student> studentList2 = studentController.studentListByGender('F');
