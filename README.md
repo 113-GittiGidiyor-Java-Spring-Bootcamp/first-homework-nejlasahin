@@ -1,10 +1,8 @@
 <h2 align="center">Java Class Diagram</h2>
 
----
-
 ![image](./resources/uml.png)
 
-
+---
 
 # GittiGidiyor-first-homework
 
