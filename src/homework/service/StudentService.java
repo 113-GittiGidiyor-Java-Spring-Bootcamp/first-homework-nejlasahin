@@ -63,7 +63,7 @@ public class StudentService implements CrudRepository<Student>, StudentRepositor
 
     @Override
     public List<Student> studentListByGender(char gender) {
-        return em.createQuery("FROM Student s WHERE s.gender =:gender", Student.class).setParameter("gender", gender).getResultList();
+        return em.createQuery("FROM Student s WHERE s.gender = :gender", Student.class).setParameter("gender", gender).getResultList();
     }
 
     @Override
